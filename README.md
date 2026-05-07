@@ -21,3 +21,8 @@ This project explores the mathematical properties of palindromic prime families.
 - `src/visualize.py`: Complexity tracker.
 - `src/seven_devils.py`: 777 hunter.
 - `src/tesla_369.py`: 369 hunter.
+
+## 🏆 Hall of Fame: Limit Breaches
+- **The Century Prime**: Successfully discovered a 100+ digit palindromic prime using the Tesla (369) sequence.
+- **Hardware**: Verified on mobile via Termux environment.
+
