@@ -1,4 +1,11 @@
 # Belphegor Prime Explorer
-This project explores the mathematical properties of the Belphegor sequence: 0^{2n+4} + 666 \times 10^{n+1} + 1$.
+A mathematical exploration of the Belphegor sequence.
 
-The script  uses the **Miller-Rabin primality test** to identify which numbers in the sequence are prime. It successfully identifies the 'Belphegor Prime' (13 zeros) as a rare mathematical anomaly.
+## Project Structure
+- `src/`: Contains the core exploration scripts.
+- `explore.py`: Primality tester for the sequence.
+
+## How to Run
+```bash
+python src/explore.py
+```
