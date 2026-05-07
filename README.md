@@ -23,6 +23,6 @@ This project explores the mathematical properties of palindromic prime families.
 - `src/tesla_369.py`: 369 hunter.
 
 ## 🏆 Hall of Fame: Limit Breaches
-- **The Century Prime**: Successfully discovered a 100+ digit palindromic prime using the Tesla (369) sequence.
+- **The Century Prime: Found a 129-digit prime at n=62 in the Tesla (369) sequence.
 - **Hardware**: Verified on mobile via Termux environment.
 
