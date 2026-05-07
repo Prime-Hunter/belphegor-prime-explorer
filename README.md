@@ -26,3 +26,9 @@ This project explores the mathematical properties of palindromic prime families.
 - **The Century Prime: Found a 129-digit prime at n=62 in the Tesla (369) sequence.
 - **Hardware**: Verified on mobile via Termux environment.
 
+
+## 📡 Current Status: The Great Twin Hunt
+- **Target**: Finding the first Twin Prime pair for the 369 family at n >= 48.
+- **Progress**: Currently scanning in the **n = 1800+** range (~3,600+ digits).
+- **Environment**: Distributed mobile computing via Termux.
+
