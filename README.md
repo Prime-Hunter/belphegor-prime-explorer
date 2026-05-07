@@ -1,25 +1,23 @@
 # Palindromic Prime Explorer
 
-This project explores the mathematical properties and computational complexity of specific palindromic prime families.
+This project explores the mathematical properties of palindromic prime families.
 
 ## Mathematical Findings
 
-### 1. The Belphegor Sequence (Center: 666)
-- **Structure**: $1[0]_n666[0]_n1$
-- **Findings**: Successfully identified the **Belphegor Prime** at **n=13** (31 digits).
-- **Other Primes**: Found a 'tiny' prime at **n=0** (16661).
+### 1. The Belphegor Sequence (666)
+- **Structure**: $1_n666_n1$
+- **Primes**: Found at **n=0** and **n=13**.
 
-### 2. The Seven Devils Sequence (Center: 777)
-- **Structure**: $1[0]_n777[0]_n1$
-- **Findings**: Identified an immediate prime at **n=0** (17771). This family shows a much higher probability of primality in its early stages compared to the 666 family.
+### 2. The Seven Devils Sequence (777)
+- **Structure**: $1_n777_n1$
+- **Primes**: Found at **n=0**.
+
+### 3. The Tesla Sequence (369)
+- **Structure**: $1_n369_n1$
+- **Primes**: Found at **n=0**, **n=5**, and **n=11**. This family is remarkably 'active' with three primes found within the first 12 levels.
 
 ## Computational Tools
-- `src/explore.py`: A generalized engine using the **Miller-Rabin primality test** to quickly verify massive numbers.
-- `src/visualize.py`: A complexity tracker that exports computational 'work' data to `complexity_data.csv`.
-- `src/seven_devils.py`: A specialized hunter script for rapid sequence discovery.
-
-## Usage
-To run the general explorer:
-```bash
-python src/explore.py
-```
+- `src/explore.py`: General primality engine.
+- `src/visualize.py`: Complexity tracker.
+- `src/seven_devils.py`: 777 hunter.
+- `src/tesla_369.py`: 369 hunter.
