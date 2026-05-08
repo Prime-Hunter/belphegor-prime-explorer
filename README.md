@@ -53,3 +53,8 @@ This project explores the mathematical properties of palindromic prime families.
 2. **Launch**: Run `sh menu.sh` for an interactive dashboard.
 3. **Contribute**: Found a prime? Add it to `DISCOVERY_LOG.md`!
 
+
+## 🙏 Acknowledgements
+- Developed by **John & Amanda**.
+- Technical mentorship and collaborative architectural design provided by **Google Gemini**.
+
