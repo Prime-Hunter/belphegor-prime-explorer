@@ -1,3 +1,5 @@
+import sys; sys.set_int_max_str_digits(0)
+import sys; sys.set_int_max_str_digits(10000)
 import random
 
 # Pre-computed small primes to speed up filtering
