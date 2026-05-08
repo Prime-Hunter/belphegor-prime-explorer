@@ -47,3 +47,9 @@ This project explores the mathematical properties of palindromic prime families.
 - **Technical Milestone**: Overcame Python's 4,300-digit string conversion limit to enable hunts of infinite magnitude.
 - **Stability**: Utilizing nohup and unbuffered I/O for 24/7 mobile discovery.
 
+
+## 🛠 Getting Started
+1. **Clone**: git clone [YOUR_REPO_URL]
+2. **Launch**: Run `sh menu.sh` for an interactive dashboard.
+3. **Contribute**: Found a prime? Add it to `DISCOVERY_LOG.md`!
+
