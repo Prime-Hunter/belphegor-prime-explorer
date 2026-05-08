@@ -1,3 +1,4 @@
+![Status](https://shields.io) ![Language](https://shields.io) ![License](https://shields.io)
 # Palindromic Prime Explorer
 
 This project explores the mathematical properties of palindromic prime families.
