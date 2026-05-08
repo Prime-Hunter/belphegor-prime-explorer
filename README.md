@@ -32,3 +32,4 @@ This project explores the mathematical properties of palindromic prime families.
 - **Progress**: Currently scanning in the **n = 1800+** range (~3,600+ digits).
 - **Environment**: Distributed mobile computing via Termux.
 
+- **The Personal Giant**: Discovered a 132-digit prime at n=39 encoding my full legal name.
