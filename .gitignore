@@ -1,3 +1,7 @@
+# Ignore Python cache and checkpoints
 __pycache__/
-*.pyc
-.DS_Store
+checkpoint_amanda.txt
+amanda_input.txt
+nohup.out
+# Ignore very large local logs (people should generate their own)
+*_log.txt
