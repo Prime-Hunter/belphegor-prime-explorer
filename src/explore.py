@@ -1,9 +1,15 @@
 import random
 
+# Pre-computed small primes to speed up filtering
+SMALL_PRIMES = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
 def is_prime(n, k=5):
-    if n <= 1: return False
-    if n <= 3: return True
-    if n % 2 == 0: return False
+    if n < 2: return False
+    # Quick trial division
+    for p in SMALL_PRIMES:
+        if n % p == 0: return n == p
+    
+    # Fast Miller-Rabin for the survivors
     r, d = 0, n - 1
     while d % 2 == 0:
         r += 1
@@ -20,15 +26,3 @@ def is_prime(n, k=5):
 
 def generate_palindromic_prime(n_zeros, center):
     return int(f"1{'0' * n_zeros}{center}{'0' * n_zeros}1")
-
-def check_sequence(center, limit=20):
-    print(f"\nChecking Sequence for Center: {center}")
-    print("-" * 30)
-    for n in range(limit):
-        num = generate_palindromic_prime(n, center)
-        if is_prime(num):
-            print(f"Zeros: {n:2} | PRIME FOUND: {num}")
-
-# Explore both families
-check_sequence("666", limit=15)
-check_sequence("777", limit=15)
